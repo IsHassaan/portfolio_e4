@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border-bottom: 0.2vw solid rgb(240, 240, 240);
+    background-color: white;
+}
+.navbar h1{
+    margin-left: 30%;
+    font-size: 3vw;
+    color: rgb(96, 75, 236);
+    font-family: 'Lobster', cursive;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar_links a{
+    font-size: 1.5vw;
+}
+.navbar_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 45%;
+}
+.home_link{
+    margin-top: 1%;
+    color: black;
+}
+
+.home_link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.2vw;
+    background: rgb(96, 75, 236);
+    transition: width .3s;
+    margin-top: 5%;
+}
+
+.home_link:hover::after {
+    width: 100%;
+}
+.contactTitle{
+    background-color: rgb(96, 75, 236);
+    padding: 1%;
+    color: white;
+    border-radius: 1vw;
+    margin-bottom: 1%;
+}
+.contactTitle:hover{
+    background-color: rgb(77, 60, 190);
+}
+
+
+/*mobile style*/
+@media only screen and (max-width: 650px) {
+    .navbar h1{
+        font-size: 5vw;
+    }
+    .navbar_links a{
+        font-size: 2.5vw;
+        margin-right: 10%;
+    }
+
+    .navbar_links{
+        margin-left: 35%;
+    }
+}
+
+
+
+.nightMod{
+    width: 98%;
+    background-color: white;
+    border-bottom: 0.2vw solid rgb(240, 240, 240);
+    padding: 1%;
+    z-index: 3;
+}
+#nightmodimg{
+    width: 6vw;
+    height: 3vw;
+    margin-left: 20%;
+}
+.nightMod button{
+    border-radius: 3vw;
+    background-color: rgb(240, 240, 240);
+    border: 0.2vw solid rgb(240, 240, 240);
+    margin-left: 90%;
+}
+.nightMod button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,211 @@
+.first_column{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.first_column h3{
+    font-size: 3vw;
+    color: rgb(96, 75, 236);
+    font-family: 'Lobster', cursive;
+}
+.first_column p{
+    font-size: 1.5vw;
+    margin: 2%;
+}
+
+/*Projet*/
+#project,.project3{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    border-bottom: 0.2vw solid rgb(240, 240, 240);
+    width: 80%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+#project img, .project3 img{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 0.5vw;
+}
+#project p, .project3 p{
+    width: 100%;
+    font-size: 1.5vw;
+    margin: 5%;
+}
+
+#project a{
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 80%;
+    background-color: rgb(96, 75, 236);
+    color: white;
+    text-decoration: none;
+    padding: 0.3%;
+    border-radius: 1vw;
+    text-align: center;
+    width: 7%;
+    height: 5.5%;
+}
+
+.project2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:2%;
+    border-bottom: 0.2vw solid rgb(240, 240, 240);
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+.project2 img{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 0.5vw;
+    margin-left: 2%;
+}
+.project2 p{
+    width: 100%;
+    font-size: 1.5vw;
+    margin: 5%;
+}
+
+.project2 a{
+    font-size: 1.5vw;
+    position: absolute;
+    background-color: rgb(96, 75, 236);
+    color: white;
+    text-decoration: none;
+    padding: 0.3%;
+    border-radius: 1vw;
+    text-align: center;
+    width: 7%;
+    height: 5.5%;
+    margin-top: 27%;
+    margin-left: 5%;
+}
+.project2 a:hover, #project a:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out; 
+}
+
+/*Compétences*/
+
+#competences{
+    font-size: 5vw;
+    color: rgb(96, 75, 236);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.competences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+.competences .content{
+    width: 25%;
+    height: 20%;
+    margin: 2%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1vw;
+    padding: 2%;
+}
+.competences .content img{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 35%;
+}
+.competences .content p{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#project a:hover{
+    background-color: rgb(77, 60, 190);
+}
+.project2 a:hover{
+    background-color: rgb(77, 60, 190);
+}
+
+#veil{
+    font-size: 5vw;
+    color: rgb(96, 75, 236);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+
+
+/*mobile style*/
+@media only screen and (max-width: 650px) {
+ 
+    .first_column p{
+        font-size: 2vw;
+    }
+    .first_column h3{
+        font-size: 4vw;
+    }
+    .first_column{
+        width: 50%;
+    }
+
+
+/*Projet*/
+    .project2 a{
+        font-size: 2vw;
+        padding: 0.5%;
+        margin-top: 32%;
+    }
+    #project a{
+        font-size: 2vw;
+        padding: 0.5%;
+        margin-top: 30%;
+    }
+    #project p{
+        font-size: 2vw;
+        width: 70%;
+    }
+    .project2 p{
+        font-size: 2vw;
+        width: 70%;
+    }
+    .project2 img{
+        margin-left: 0%;
+    }
+
+    /*Compétences*/
+    .competences{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 1%;
+        margin-top: 20%;
+    }
+    .competences .content{
+        width: 35%;
+        height: 20%;
+    }
+    .competences .content img{
+        width: 8vw;
+        height: 8vw;
+        margin-left: 35%;
+    }
+    .competences .content p{
+        font-size: 2vw;
+    }
+
+}

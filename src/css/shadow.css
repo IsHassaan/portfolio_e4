@@ -1,0 +1,21 @@
+.nightMod{
+    width: 98%;
+    background-color: white;
+    border-bottom: 0.2vw solid rgb(240, 240, 240);
+    padding: 1%;
+    z-index: 3;
+}
+#nightmodimg{
+    width: 6vw;
+    height: 3vw;
+    margin-left: 20%;
+}
+.nightMod button{
+    border-radius: 3vw;
+    background-color: rgb(240, 240, 240);
+    border: 0.2vw solid rgb(240, 240, 240);
+    margin-left: 90%;
+}
+.nightMod button:hover{
+    cursor: pointer;
+}
