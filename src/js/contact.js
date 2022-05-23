@@ -23,7 +23,7 @@ function Contact(){
             <h1>Pages</h1>
             <a href="#competences">Competences</a>
             <a href="#project">Projets</a>
-            <a href="#veil">Veil E4</a>
+            <a href="#veil">Veil</a>
         </div>
     </div>
 

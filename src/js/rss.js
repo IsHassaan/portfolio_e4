@@ -5,40 +5,48 @@ function Rss(){
 <div className="rss">
     <div className="articles">
             <div className="article">
-                <a href="https://www.bleepingcomputer.com/news/security/malicious-pypi-package-opens-backdoors-on-windows-linux-and-macs/" target='blank'>
-                    <h3 className='article_title'>Malicious PyPI package opens backdoors on Windows, Linux, and Macs</h3>
-                    <img src='https://www.bleepstatic.com/content/hl-images/2021/05/20/bg_pypi_smaller.png?rand=863321293' alt="article picture" className='article_img'/>
-                    <p className='article_description'>Yet another malicious Python package has been
-                    spotted in the PyPI registry performing supply chain attacks to drop Cobalt Strike
-                    beacons and backdoors on Windows, Linux, and macOS systems.</p>
+                <a href="https://www.nouvelles-du-monde.com/le-navigateur-firefox-pirate-en-8-secondes-a-laide-de-2-failles-de-securite-critiques/" target='blank'>
+                    <h3 className='article_title'>Le navigateur Firefox piraté en 8 secondes à l’aide de 2 failles de sécurité critiques</h3>
+                    <img src='https://imageio.forbes.com/specials-images/imageserve//6289fc4ac1dc9247c96b3953/0x0.jpg?format=jpg&width=1200' alt="article picture" className='article_img'/>
+                    <p className='article_description'>Avec Windows 11, Microsoft Teams, Ubuntu
+                    Desktop et le Tesla Model 3 qui sont tous victimes de pirates en une semaine,
+                    vous pourriez être pardonné de ne pas avoir remarqué que Mozilla Firefox a
+                    également été piraté. En seulement huit secondes en utilisant deux vulnérabilités
+                    de sécurité critiques.</p>
                 </a>
             </div>
 
             <div className="article">
-                <a href="https://www.bleepingcomputer.com/news/security/elon-musk-deep-fakes-promote-new-cryptocurrency-scam/" target='blank'>
-                    <h3 className='article_title'>Elon Musk deep fakes promote new cryptocurrency scam</h3>
+                <a href="https://thepressfree.com/les-contrefacons-profondes-delon-musk-font-la-promotion-dune-nouvelle-arnaque-a-la-crypto-monnaie/" target='blank'>
+                    <h3 className='article_title'>Les deep fakes d’Elon Musk font la promotion d’une nouvelle arnaque à la crypto-monnaie </h3>
                     <img src='https://www.bleepstatic.com/content/hl-images/2022/05/22/elon-musk-space-bright.jpg' alt="article picture" className='article_img'/>
-                    <p className='article_description'>Cryptocurrency scammers are using deep fake videos
-                    of Elon Musk and other prominent cryptocurrency advocates to promote a BitVex trading
-                    platform scam that steals deposited currency.</p>
+                    <p className='article_description'>Les escrocs de crypto-monnaie utilisent
+                     de fausses vidéos d'Elon Musk et d’autres éminents défenseurs
+                    de la crypto-monnaie pour promouvoir une escroquerie sur la plateforme
+                    de trading BitVex qui vole la monnaie déposée.
+                    </p>
                 </a>
             </div>
 
             <div className="article">
-                <a href="https://www.cyberscoop.com/ed-tech-ftc-coppa/" target='blank'>
-                    <h3 className='article_title'>FTC warns it will go after ed tech companies misusing children's data</h3>
-                    <img src='https://www.cyberscoop.com/wp-content/uploads/sites/3/2022/05/GettyImages-1218865781.jpg' alt="article picture" className='article_img'/>
-                    <p className='article_description'>The Federal Trade Commission voted 5-0
-                    on Thursday to issue a policy statement warning education tech companies
-                    against using data collected from children via education services.</p>
+                <a href="https://www.clubic.com/antivirus-securite-informatique/actualite-414321-bientot-la-fin-des-mots-de-passe.html" target='blank'>
+                    <h3 className='article_title'>Bientôt la fin des mots de passe ?</h3>
+                    <img src='https://pic.clubic.com/v1/images/1814161/raw.webp?fit=max&width=1200&hash=e096ca524b7e86b8e383539e9a919e982742efef' alt="article picture" className='article_img'/>
+                    <p className='article_description'>Un monde sans mot de passe , ce n'est plus de
+                    l'utopie, mais une réalité qui pourrait bien devenir, d'ici quelques années, la
+                    norme en matière de protection et d'identification.
+                    </p>
                 </a>
             </div>
 
             <div className="article">
-                <a href="https://www.tripwire.com/state-of-security/security-data-protection/multi-factor-authentication-key-cyber-risk-insurance/" target='blank'>
-                    <h3 className='article_title'>Multi-Factor Authentication: A Key to Cyber Risk Insurance Coverage</h3>
-                    <img src='https://3b6xlt3iddqmuq5vy2w0s5d3-wpengine.netdna-ssl.com/state-of-security/wp-content/uploads/sites/3/Multi-Factor-Authentication-A-Key-to-Cyber-Risk-Insurance-Coverage.jpg' alt="article picture" className='article_img'/>
-                    <p className='article_description'>Cybersecurity is not bullet-proof. Buying a cyber risk insurance program can help outsource residual risk, and deploying multi-factor authentication is a prerequisite not only for getting coverage but also for lowering premiums.</p>
+                <a href="https://www.lemondeinformatique.fr/actualites/lire-la-gestion-des-comptes-a-privileges-centrale-chez-casden-banque-populaire-86787.html" target='blank'>
+                    <h3 className='article_title'>GitHub imposera le 2FA à tous les contributeurs de code en 2023</h3>
+                    <img src='https://images.itnewsinfo.com/lmi/articles/grande/000000085495.jpg' alt="article picture" className='article_img'/>
+                    <p className='article_description'>Afin de renforcer la sécurité de la chaîne
+                    d'approvisionnement des logiciels, Github exigera de tous les utilisateurs
+                    contribuant au code qu'ils acceptent de recourir à l'authentification double
+                    facteur d'ici fin 2023.</p>
                 </a>
             </div>
     </div>
