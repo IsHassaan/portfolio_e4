@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio_e4/static/css/main.e7803829.css",
+    "main.js": "/portfolio_e4/static/js/main.1bf15fd0.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio_e4/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/project_img2.png": "/portfolio_e4/static/media/project_img2.5c365458039d6c359208.png",
+    "static/media/project_img.png": "/portfolio_e4/static/media/project_img.055d20a60601e16ac1b2.png",
+    "static/media/project_img3.png": "/portfolio_e4/static/media/project_img3.8f10f35eec8efc1d03ce.png",
+    "static/media/node_js.png": "/portfolio_e4/static/media/node_js.780658f212ebdcbcffc1.png",
+    "static/media/python.png": "/portfolio_e4/static/media/python.0dac0c703a76df229d76.png",
+    "static/media/github.png": "/portfolio_e4/static/media/github.69ffd9cd5a846c976177.png",
+    "static/media/linkedin.png": "/portfolio_e4/static/media/linkedin.712c4ce3d6be06644d11.png",
+    "static/media/C_logo.png": "/portfolio_e4/static/media/C_logo.fc430729bfa8902c06fd.png",
+    "static/media/Mysql_logo.png": "/portfolio_e4/static/media/Mysql_logo.a04abbf76b39676bc4d9.png",
+    "static/media/javascript.png": "/portfolio_e4/static/media/javascript.3d09f2e45b9c5f40efb8.png",
+    "index.html": "/portfolio_e4/index.html",
+    "main.e7803829.css.map": "/portfolio_e4/static/css/main.e7803829.css.map",
+    "main.1bf15fd0.js.map": "/portfolio_e4/static/js/main.1bf15fd0.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio_e4/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7803829.css",
+    "static/js/main.1bf15fd0.js"
+  ]
+}
